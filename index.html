@@ -1,0 +1,125 @@
+<!-- <!DOCTYPE html> -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase cuatro --- HTML</title>
+    <link rel="stylesheet" href="css/primero.css">
+    
+    
+</head>
+<body>
+    <div id="contenedor_ppal">
+        <div id="titulo">
+            <p>INGRESE SUS DATOS</p>
+        </div>
+
+    <form action="https://postman-echo.com/post" method="post" >
+        <!--CAMPO NOMBRE--> 
+        <div class="contenedor_campo"> 
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre"  placeholder="Ingrese su nombre" maxlength="30"
+        minlength="2" name="nombre" required>
+        </div>
+
+        <!--CAMPO APELLIDO-->
+        <div class="contenedor_campo">
+        <label for="Apellido">Apellido</label>
+        <input 
+        type="text" 
+        id="Apellido"
+        placeholder="Ingrese su Apellido"
+        maxlength="30"
+        minlength="2"
+        name="Apellido">
+        </div>
+
+        <!-- CAMPO EDAD-->
+        <div class="contenedor_campo">
+        <label for="edad">Edad</label>
+        <input type="number" 
+        name="edad" 
+        id="edad"
+        min="3"
+        placeholder="Ingrese su edad">
+        </div>
+
+        <!-- CAMPO EMAIL -->
+        <div class="contenedor_campo">
+        <label for="email">Email</label>
+        <input 
+        type="email" 
+        name="email" 
+        id="email"
+        placeholder="Ingrese su email">                     
+        </div>
+
+        <!-- CAMPO PASSWORD -->
+        <div class="contenedor_campo">
+        <label for="password">Password</label>
+        <input type="password" 
+        name="password" 
+        id="password"
+        placeholder="Ingrese la clave">
+        </div>
+
+        <!-- CAMPO GENERO -->
+        <div class="contenedor_campo">
+        <label for="genero">Genero</label>
+        <input type="radio" name="genero" value="femenino" checked><span>Femenino</span>
+        <input type="radio" name="genero" value="masculino"><span>Masculino</span>
+        <input type="radio" name="genero" value="otros"><span>Otros</span>
+         </div>
+
+        <!-- CAMPO ESTUDIOS-->
+        <div class="contenedor_campo">
+        <label for="estudios">Estudios</label>
+        <input type="checkbox" name="primaria" id="estudios" value="si" checked><span>Primaria</span> 
+        <input type="checkbox" name="secundaria" id="estudios" value="si"><span>Secundaria</span> 
+        <input type="checkbox" name="Terciaria" id="estudios" value="si"><span>Terciaria</span>
+        <input type="checkbox" name="Cursos" id="estudios" value="si"><span>Cursos</span>
+        </div>
+
+        <!-- CAMPO VEHICULO -->
+        <div class="contenedor_campo">
+        <label for="vehiculo">Vehiculo</label>
+        <select name="vehiculo" id="vehiculo">
+            <option value="ford">Ford</option>
+            <option value="vm">VM</option>
+            <option value="fiat">Fiat</option>
+            <option value="ninguno">Ninguno</option>
+        </select>
+        </div>
+
+        <!-- CAMPO COLOR-->
+        <div class="contenedor_campo">
+        <label for="color">Color de tu auto</label>
+        <input type="color" name="color">
+        </div>
+        
+        <!-- CAMPO COMENTARIO-->
+        <div class="contenedor_campo">
+        <label for="comentario">Comentarios</label>
+        <textarea name="comentario" id="cometario" cols="30" rows="10"></textarea>
+        </div>
+
+        <!-- CAMPO NIVEL-->
+        <div class="contenedor_campo">
+        <label for="nivel">Nivel</label>
+        <input type="range" name="nivel" value="25">        
+        </div>
+
+        <!-- CAMPO FECHA -->
+        <div class="contenedor_campo">
+        <label for="fecha">Fecha</label>
+        <input type="date" name="fecha" id="fecha">
+        </div>
+         
+        <br>
+        <div class="contenedor_boton">
+        <input type="submit" value="Enviar">
+        </div>
+    </form>
+    </div>
+</body>
+</html>

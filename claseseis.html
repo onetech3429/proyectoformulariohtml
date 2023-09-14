@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase Seis --- HTMl</title>
+    <style>
+        table, td, th{
+            border: 1px solid black ;
+            border-collapse: collapse;
+        }
+        td{
+            padding: 10px;            
+            color: white;
+        }
+        th{
+            padding: 15px;
+        }
+        #solapa-ven{
+            padding: 4px;
+            background-color: red;
+            color: white;
+        }
+        #solapa-veh{
+            padding: 15px;
+            background-color: purple;
+            color: white;
+        }
+        .encabezado{
+            padding: 10px;
+            background-color: brown;
+            color: white;
+        }
+        .renglon-par{
+           background-color: #555;
+           color: white; 
+        }
+        .renglon-impar{
+           background-color: #444;
+           color: white; 
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <th id="solapa-ven" colspan="4">ventas</th>
+        </tr>
+      <tr>
+        <th id="solapa-veh" rowspan="4">
+        V <br>
+        E <br>
+        H <br>
+        I <br>
+        C <br>
+        U <br>
+        L <br>
+        O <br>
+    </th>
+        <th class="encabezado">MARCA</th>
+        <th class="encabezado">MODELO</th>
+        <th class="encabezado">AÑO</th>
+      </tr>  
+      <tr class="renglon-impar">       
+        <td>FORD</td>
+        <td>FOCUS</td>
+        <td>2015</td>
+      </tr> 
+      <tr class="renglon-par">
+        <td>FIAT</td>
+        <td>PALIO</td>
+        <td>2017</td>
+      </tr>
+      <tr class="renglon-impar">        
+        <td>VM</td>
+        <td>VENTO</td>
+        <td>2020</td>
+      </tr>
+    </table>
+
+</body>
+</html>

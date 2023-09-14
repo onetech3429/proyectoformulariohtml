@@ -1,0 +1,74 @@
+
+        label{
+            color: purple;        
+            display: block;
+            margin-bottom: 3px;           
+        }
+        body{
+            margin: 0;
+            background-color: #888;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 2px #555;
+        }
+        #contenedor_ppal{
+           margin: 10px;
+           border-radius: 40px;
+           width: 70%;
+           margin: 10px auto;
+           box-shadow: 2px 2px 2px #555;
+           background-color: coral; 
+        }
+        .contenedor_campo{
+            margin-bottom: 10px;
+            border: 1px dashed pink;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;            
+            padding: 5px;
+        }
+        #titulo{
+            color: white;
+            font-size: 25px;   
+            margin-bottom: 20px;              
+            margin-top: 5px;      
+            text-align: center;
+            /* border: 1px dashed yellow; */
+        }
+        p{
+            margin: 0;
+        }
+        .contenedor_boton{
+            margin: 0 auto;
+            text-align: center;  
+            width: 20%;          
+        }
+        input{
+            width: 70%;
+            height: 30px;
+            border-radius: 5px;
+            background-color: #95afc0;
+            font-size: 15pt;
+            font-weight: bold;
+            padding: 2px 2px 2px 2px;
+        }
+        span{
+            color: white;
+            display: block;
+            margin-bottom: 3px;
+            margin-top: 3px;
+
+        }
+
+        select, textarea{
+            width: 70%;
+            height: 30px;
+            border-radius: 5px;
+            background-color: #95afc0;
+            font-size: 15pt;
+            font-weight: bold;
+            padding: 2px 2px 2px 2px;
+        }
+        textarea{
+            height: auto;
+        }
+    
